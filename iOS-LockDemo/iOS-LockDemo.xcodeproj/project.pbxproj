@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211D8B9A2305445000CB6A08 /* YZRwlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 211D8B992305445000CB6A08 /* YZRwlock.m */; };
+		211D8B9D2305567800CB6A08 /* YZBarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 211D8B9C2305567800CB6A08 /* YZBarrier.m */; };
+		212F610A2303E92B00AB75D1 /* YZNSConditionLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F61092303E92B00AB75D1 /* YZNSConditionLock.m */; };
+		212F610D2303FB7500AB75D1 /* YZSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F610C2303FB7500AB75D1 /* YZSemaphore.m */; };
+		212F611023041E2500AB75D1 /* YZSynchronized.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F610F23041E2500AB75D1 /* YZSynchronized.m */; };
+		2164D70722EEC51900A00850 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2164D70622EEC51900A00850 /* AppDelegate.m */; };
+		2164D70A22EEC51900A00850 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2164D70922EEC51900A00850 /* ViewController.m */; };
+		2164D70D22EEC51900A00850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2164D70B22EEC51900A00850 /* Main.storyboard */; };
+		2164D70F22EEC51F00A00850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2164D70E22EEC51F00A00850 /* Assets.xcassets */; };
+		2164D71222EEC51F00A00850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2164D71022EEC51F00A00850 /* LaunchScreen.storyboard */; };
+		2164D71522EEC51F00A00850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2164D71422EEC51F00A00850 /* main.m */; };
+		2164D71E22EEC85F00A00850 /* YZBaseLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2164D71D22EEC85F00A00850 /* YZBaseLock.m */; };
+		2164D72122EEE04300A00850 /* YZOSSpinLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2164D72022EEE04300A00850 /* YZOSSpinLock.m */; };
+		2164D72422EEEF4E00A00850 /* YZUnfairLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2164D72322EEEF4E00A00850 /* YZUnfairLock.m */; };
+		216DDFCD2302A68300585605 /* YZMutexCondLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DDFCC2302A68300585605 /* YZMutexCondLock.m */; };
+		21A30C4D22FC4D6D0021579B /* YZMutexLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A30C4C22FC4D6D0021579B /* YZMutexLock.m */; };
+		21A30C5022FD052D0021579B /* YZMutexRecursiveLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A30C4F22FD052D0021579B /* YZMutexRecursiveLock.m */; };
+		21A418EA23056BD60089AFDE /* YZDispatchGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A418E923056BD60089AFDE /* YZDispatchGroup.m */; };
+		21E8344B23030EB100957D78 /* YZNSLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E8344923030EB100957D78 /* YZNSLock.m */; };
+		21E8345223031B2100957D78 /* YZNSRecursiveLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E8345123031B2100957D78 /* YZNSRecursiveLock.m */; };
+		21E8345823031EA500957D78 /* YZNSCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E8345723031EA500957D78 /* YZNSCondition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		211D8B982305445000CB6A08 /* YZRwlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZRwlock.h; sourceTree = "<group>"; };
+		211D8B992305445000CB6A08 /* YZRwlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZRwlock.m; sourceTree = "<group>"; };
+		211D8B9B2305567800CB6A08 /* YZBarrier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBarrier.h; sourceTree = "<group>"; };
+		211D8B9C2305567800CB6A08 /* YZBarrier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBarrier.m; sourceTree = "<group>"; };
+		212F61082303E92B00AB75D1 /* YZNSConditionLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZNSConditionLock.h; sourceTree = "<group>"; };
+		212F61092303E92B00AB75D1 /* YZNSConditionLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZNSConditionLock.m; sourceTree = "<group>"; };
+		212F610B2303FB7500AB75D1 /* YZSemaphore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSemaphore.h; sourceTree = "<group>"; };
+		212F610C2303FB7500AB75D1 /* YZSemaphore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSemaphore.m; sourceTree = "<group>"; };
+		212F610E23041E2500AB75D1 /* YZSynchronized.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSynchronized.h; sourceTree = "<group>"; };
+		212F610F23041E2500AB75D1 /* YZSynchronized.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSynchronized.m; sourceTree = "<group>"; };
+		2164D70222EEC51900A00850 /* iOS-LockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-LockDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2164D70522EEC51900A00850 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2164D70622EEC51900A00850 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2164D70822EEC51900A00850 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2164D70922EEC51900A00850 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2164D70C22EEC51900A00850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2164D70E22EEC51F00A00850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2164D71122EEC51F00A00850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2164D71322EEC51F00A00850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2164D71422EEC51F00A00850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2164D71C22EEC85F00A00850 /* YZBaseLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBaseLock.h; sourceTree = "<group>"; };
+		2164D71D22EEC85F00A00850 /* YZBaseLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBaseLock.m; sourceTree = "<group>"; };
+		2164D71F22EEE04300A00850 /* YZOSSpinLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZOSSpinLock.h; sourceTree = "<group>"; };
+		2164D72022EEE04300A00850 /* YZOSSpinLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZOSSpinLock.m; sourceTree = "<group>"; };
+		2164D72222EEEF4E00A00850 /* YZUnfairLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZUnfairLock.h; sourceTree = "<group>"; };
+		2164D72322EEEF4E00A00850 /* YZUnfairLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZUnfairLock.m; sourceTree = "<group>"; };
+		216DDFCB2302A68300585605 /* YZMutexCondLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMutexCondLock.h; sourceTree = "<group>"; };
+		216DDFCC2302A68300585605 /* YZMutexCondLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMutexCondLock.m; sourceTree = "<group>"; };
+		21A30C4B22FC4D6D0021579B /* YZMutexLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMutexLock.h; sourceTree = "<group>"; };
+		21A30C4C22FC4D6D0021579B /* YZMutexLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMutexLock.m; sourceTree = "<group>"; };
+		21A30C4E22FD052D0021579B /* YZMutexRecursiveLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMutexRecursiveLock.h; sourceTree = "<group>"; };
+		21A30C4F22FD052D0021579B /* YZMutexRecursiveLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMutexRecursiveLock.m; sourceTree = "<group>"; };
+		21A418E823056BD60089AFDE /* YZDispatchGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZDispatchGroup.h; sourceTree = "<group>"; };
+		21A418E923056BD60089AFDE /* YZDispatchGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZDispatchGroup.m; sourceTree = "<group>"; };
+		21E8344923030EB100957D78 /* YZNSLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZNSLock.m; sourceTree = "<group>"; };
+		21E8344A23030EB100957D78 /* YZNSLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZNSLock.h; sourceTree = "<group>"; };
+		21E8345023031B2100957D78 /* YZNSRecursiveLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZNSRecursiveLock.h; sourceTree = "<group>"; };
+		21E8345123031B2100957D78 /* YZNSRecursiveLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZNSRecursiveLock.m; sourceTree = "<group>"; };
+		21E8345623031EA500957D78 /* YZNSCondition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZNSCondition.h; sourceTree = "<group>"; };
+		21E8345723031EA500957D78 /* YZNSCondition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZNSCondition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2164D6FF22EEC51900A00850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2164D6F922EEC51900A00850 = {
+			isa = PBXGroup;
+			children = (
+				2164D70422EEC51900A00850 /* iOS-LockDemo */,
+				2164D70322EEC51900A00850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2164D70322EEC51900A00850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2164D70222EEC51900A00850 /* iOS-LockDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2164D70422EEC51900A00850 /* iOS-LockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2164D71B22EEC82F00A00850 /* iOSManyLocks */,
+				2164D70522EEC51900A00850 /* AppDelegate.h */,
+				2164D70622EEC51900A00850 /* AppDelegate.m */,
+				2164D70822EEC51900A00850 /* ViewController.h */,
+				2164D70922EEC51900A00850 /* ViewController.m */,
+				2164D70B22EEC51900A00850 /* Main.storyboard */,
+				2164D70E22EEC51F00A00850 /* Assets.xcassets */,
+				2164D71022EEC51F00A00850 /* LaunchScreen.storyboard */,
+				2164D71322EEC51F00A00850 /* Info.plist */,
+				2164D71422EEC51F00A00850 /* main.m */,
+			);
+			path = "iOS-LockDemo";
+			sourceTree = "<group>";
+		};
+		2164D71B22EEC82F00A00850 /* iOSManyLocks */ = {
+			isa = PBXGroup;
+			children = (
+				2164D71C22EEC85F00A00850 /* YZBaseLock.h */,
+				2164D71D22EEC85F00A00850 /* YZBaseLock.m */,
+				2164D71F22EEE04300A00850 /* YZOSSpinLock.h */,
+				2164D72022EEE04300A00850 /* YZOSSpinLock.m */,
+				2164D72222EEEF4E00A00850 /* YZUnfairLock.h */,
+				2164D72322EEEF4E00A00850 /* YZUnfairLock.m */,
+				21A30C4B22FC4D6D0021579B /* YZMutexLock.h */,
+				21A30C4C22FC4D6D0021579B /* YZMutexLock.m */,
+				21A30C4E22FD052D0021579B /* YZMutexRecursiveLock.h */,
+				21A30C4F22FD052D0021579B /* YZMutexRecursiveLock.m */,
+				216DDFCB2302A68300585605 /* YZMutexCondLock.h */,
+				216DDFCC2302A68300585605 /* YZMutexCondLock.m */,
+				21E8344A23030EB100957D78 /* YZNSLock.h */,
+				21E8344923030EB100957D78 /* YZNSLock.m */,
+				21E8345023031B2100957D78 /* YZNSRecursiveLock.h */,
+				21E8345123031B2100957D78 /* YZNSRecursiveLock.m */,
+				21E8345623031EA500957D78 /* YZNSCondition.h */,
+				21E8345723031EA500957D78 /* YZNSCondition.m */,
+				212F61082303E92B00AB75D1 /* YZNSConditionLock.h */,
+				212F61092303E92B00AB75D1 /* YZNSConditionLock.m */,
+				212F610B2303FB7500AB75D1 /* YZSemaphore.h */,
+				212F610C2303FB7500AB75D1 /* YZSemaphore.m */,
+				212F610E23041E2500AB75D1 /* YZSynchronized.h */,
+				212F610F23041E2500AB75D1 /* YZSynchronized.m */,
+				211D8B982305445000CB6A08 /* YZRwlock.h */,
+				211D8B992305445000CB6A08 /* YZRwlock.m */,
+				211D8B9B2305567800CB6A08 /* YZBarrier.h */,
+				211D8B9C2305567800CB6A08 /* YZBarrier.m */,
+				21A418E823056BD60089AFDE /* YZDispatchGroup.h */,
+				21A418E923056BD60089AFDE /* YZDispatchGroup.m */,
+			);
+			path = iOSManyLocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2164D70122EEC51900A00850 /* iOS-LockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2164D71822EEC51F00A00850 /* Build configuration list for PBXNativeTarget "iOS-LockDemo" */;
+			buildPhases = (
+				2164D6FE22EEC51900A00850 /* Sources */,
+				2164D6FF22EEC51900A00850 /* Frameworks */,
+				2164D70022EEC51900A00850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-LockDemo";
+			productName = "iOS-LockDemo";
+			productReference = 2164D70222EEC51900A00850 /* iOS-LockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2164D6FA22EEC51900A00850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yongzhen;
+				TargetAttributes = {
+					2164D70122EEC51900A00850 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2164D6FD22EEC51900A00850 /* Build configuration list for PBXProject "iOS-LockDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2164D6F922EEC51900A00850;
+			productRefGroup = 2164D70322EEC51900A00850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2164D70122EEC51900A00850 /* iOS-LockDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2164D70022EEC51900A00850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2164D71222EEC51F00A00850 /* LaunchScreen.storyboard in Resources */,
+				2164D70F22EEC51F00A00850 /* Assets.xcassets in Resources */,
+				2164D70D22EEC51900A00850 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2164D6FE22EEC51900A00850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A30C5022FD052D0021579B /* YZMutexRecursiveLock.m in Sources */,
+				212F611023041E2500AB75D1 /* YZSynchronized.m in Sources */,
+				2164D72422EEEF4E00A00850 /* YZUnfairLock.m in Sources */,
+				212F610A2303E92B00AB75D1 /* YZNSConditionLock.m in Sources */,
+				2164D70A22EEC51900A00850 /* ViewController.m in Sources */,
+				2164D71522EEC51F00A00850 /* main.m in Sources */,
+				2164D71E22EEC85F00A00850 /* YZBaseLock.m in Sources */,
+				21A30C4D22FC4D6D0021579B /* YZMutexLock.m in Sources */,
+				2164D72122EEE04300A00850 /* YZOSSpinLock.m in Sources */,
+				2164D70722EEC51900A00850 /* AppDelegate.m in Sources */,
+				211D8B9A2305445000CB6A08 /* YZRwlock.m in Sources */,
+				21E8345223031B2100957D78 /* YZNSRecursiveLock.m in Sources */,
+				21E8345823031EA500957D78 /* YZNSCondition.m in Sources */,
+				212F610D2303FB7500AB75D1 /* YZSemaphore.m in Sources */,
+				21A418EA23056BD60089AFDE /* YZDispatchGroup.m in Sources */,
+				211D8B9D2305567800CB6A08 /* YZBarrier.m in Sources */,
+				21E8344B23030EB100957D78 /* YZNSLock.m in Sources */,
+				216DDFCD2302A68300585605 /* YZMutexCondLock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2164D70B22EEC51900A00850 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2164D70C22EEC51900A00850 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2164D71022EEC51F00A00850 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2164D71122EEC51F00A00850 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2164D71622EEC51F00A00850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2164D71722EEC51F00A00850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2164D71922EEC51F00A00850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BW29X768A;
+				INFOPLIST_FILE = "iOS-LockDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yongzhenyin.iOS-LockDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2164D71A22EEC51F00A00850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BW29X768A;
+				INFOPLIST_FILE = "iOS-LockDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yongzhenyin.iOS-LockDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2164D6FD22EEC51900A00850 /* Build configuration list for PBXProject "iOS-LockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2164D71622EEC51F00A00850 /* Debug */,
+				2164D71722EEC51F00A00850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2164D71822EEC51F00A00850 /* Build configuration list for PBXNativeTarget "iOS-LockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2164D71922EEC51F00A00850 /* Debug */,
+				2164D71A22EEC51F00A00850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2164D6FA22EEC51900A00850 /* Project object */;
+}
